@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set +e;
+
 npm set loglevel=warn
 npm set unsafe-perm true
 npm set cache-min 9999999
